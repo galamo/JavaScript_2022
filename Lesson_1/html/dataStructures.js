@@ -1,5 +1,14 @@
 // array
 // object
+// function sendMail(user) {
+//     console.log("Mail Sent!", user)
+// }
+// arrow function vs es5 function
+const sendMail = (user) => {
+    console.log("Mail Sent!", user)
+}
+
+
 const colors = ["red", "green", "pink", "blue"]
 console.log(colors.length)
 colors.push("purple")
@@ -27,10 +36,3 @@ function getReplacedEmail(email) {
 
 users.forEach(function (item) { console.log(item) })
 
-// function sendMail(user) {
-//     console.log("Mail Sent!", user)
-// }
-// arrow function vs es5 function
-const sendMail = (user) => {
-    console.log("Mail Sent!", user)
-}
