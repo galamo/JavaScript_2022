@@ -53,5 +53,6 @@ const myUser = {
 }
 
 function showUserDetails() {
+    
     console.log(myUser)
 }
