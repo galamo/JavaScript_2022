@@ -36,3 +36,22 @@ function getReplacedEmail(email) {
 
 users.forEach(function (item) { console.log(item) })
 
+
+// Object example
+const myUser = {
+    name: "Gal",
+    lastName: "Amouyal",
+    favoritesMeals: ["Pasta", "Pizza", "ViznizHalla"],
+    address: { city: "Ashdod", street: "elizer", num: 11 },
+    age: 33,
+    vacationsWithoutChildren: [
+        { location: "sayshel", nights: 5 },
+        { location: "eilat", nights: 4 },
+        { location: "usa", nights: 11 },
+        { location: "odesa", nights: 3 },
+    ]
+}
+
+function showUserDetails() {
+    console.log(myUser)
+}
