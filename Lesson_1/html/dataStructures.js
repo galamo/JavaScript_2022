@@ -53,6 +53,17 @@ const myUser = {
 }
 
 function showUserDetails() {
-    
-    console.log(myUser)
+    // Get the div content element from the DOM
+    const userDetailsDiv = document.getElementById("userDetailsContent")
+    userDetailsDiv.innerHTML = "";
+    // const fullName = myUser.name + " " + myUser.lastName
+    // Concat the name and last name and store in fullName
+    const fullName = `${myUser.name} ${myUser.lastName}`
+    // create element header
+    const h1UserName = document.createElement("h1")
+    // insert fullName into h1
+    h1UserName.innerText = fullName
+    // present the h1 inside the div
+    userDetailsDiv.append(h1UserName)
+
 }
