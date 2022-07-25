@@ -37,3 +37,29 @@ function testSendMailForm(){
 }
 
 ```
+
+
+
+## Homework 25-7
+- Create new Folder Name: `car`
+- create inside the following file `car.html`
+- create inside the following file `car.js`
+- include `car.js` inside `car.html` file as script - see our examples
+- in `car.js` Build an object that describe your private car
+- example:
+```javascript
+const myCar = { } 
+
+```
+- fill the object with the properties
+1. licensePlate - number
+2. type - object ( subType, model, year)
+3. km - number
+4. color - string
+5. owners - Array of objects `{name:string, id:number, yearPurchase:string}`
+6. price
+7. insuranceCompany - object `{companyName:string, insuranceNumber:string}`
+
+- Create a Button that - `show car`
+- when clicking the button the car will be presented in the HTML
+- create another button `remove car` - clicking the button will remove the car from the HTML
