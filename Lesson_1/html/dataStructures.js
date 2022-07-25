@@ -87,7 +87,6 @@ function showUserDetails() {
             if (this.parentElement.id !== "Pizza") {
                 this.parentElement.remove()
             }
-
         })
         currentFavorite.style.color = "lightblue"
         currentFavorite.append(deleteButton)
