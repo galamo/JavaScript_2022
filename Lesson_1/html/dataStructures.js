@@ -64,6 +64,20 @@ function showUserDetails() {
     // insert fullName into h1
     h1UserName.innerText = fullName
     // present the h1 inside the div
-    userDetailsDiv.append(h1UserName)
+    const h2 = document.createElement("h3")
+    h2.innerText = myUser.age;
+
+    userDetailsDiv.append(h1UserName, h2)
+
+    for (let index = 0; index < myUser.favoritesMeals.length; index++) {
+        const currentMeal = myUser.favoritesMeals[index];
+        const currentFavorite = document.createElement("li")
+        currentFavorite.innerText = currentMeal;
+        currentFavorite.style.color = "pink"
+        userDetailsDiv.append(currentFavorite)
+    }
+
+
+
 
 }
