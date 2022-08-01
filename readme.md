@@ -63,3 +63,11 @@ const myCar = { }
 - Create a Button that - `show car`
 - when clicking the button the car will be presented in the HTML
 - create another button `remove car` - clicking the button will remove the car from the HTML
+
+
+
+# Subjects:
+1. Javascript Automation scripts
+2. Test Sticky notes
+3. Async await - operations
+4. nodejs - starting
