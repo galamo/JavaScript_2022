@@ -54,7 +54,7 @@ function getNoteUi(stickyNote) {
     const delete_button = document.createElement("button");
     delete_button.id = "deleteBtn";
     delete_button.style.outline = "none";
-    delete_button.className = "my-button float-right mr-1";
+    delete_button.className = "all_delete_buttons my-button float-right mr-1";
     delete_button.addEventListener("click", deleteHandler)
 
     const delete_icon = document.createElement("i");

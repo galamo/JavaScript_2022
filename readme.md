@@ -81,3 +81,23 @@ Create Automation script which test our car site
 2. Test Sticky notes
 3. Async await - operations
 4. nodejs - starting
+
+
+# Commit your changes
+- `git checkout -b newBranch_TODAY_DATE`
+- `git add .`
+- `git commit -m "WhatEverYouLike"`
+- `git checkout master`
+- `git pull`
+
+
+## Help scripts
+`document.querySelectorAll(".all_delete_buttons").forEach(b=>b.click())`
+
+
+# HomeWork 
+- Sticky note
+- Write tests for the following scenarios:
+1. validateInputs - validate all inputs - Done
+2. Add sticky note ( remember to clean the board) + Delete 
+3. Filter sticky notes - all, completed, today

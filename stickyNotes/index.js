@@ -79,7 +79,7 @@ function saveStickyNOTE() {
 
     // validate that all inputs are filled
     if (!note_name.value || !note_text.value || !note_date.value || !note_time.value) {
-        alert("Please Fill All Inputs")
+        // alert("Please Fill All Inputs")
         return;
     }
 
@@ -123,7 +123,7 @@ function saveStickyNOTE() {
 
     saveToLocalStorage("stickyNotes", arrayOfNotes);
     draw(arrayOfNotes)
-    NOTES_DOM.notes_board.reset();
+    // NOTES_DOM.notes_board.reset();
 
 }
 
@@ -139,7 +139,7 @@ function timeRegexValidate(time) {
 }
 
 function validateTime(note_time, note_date) {
-    Date.prototype.toDateInputValue = (function() {
+    Date.prototype.toDateInputValue = (function () {
         let local = new Date(this);
         local.setMinutes(this.getMinutes() - this.getTimezoneOffset());
         return local.toJSON().slice(11, 16);
@@ -153,7 +153,7 @@ function validateTime(note_time, note_date) {
     Itime = Itime.replace(":", '')
     Itime = Number(Itime)
 
-    Date.prototype.toDateInputValue = (function() {
+    Date.prototype.toDateInputValue = (function () {
         let local = new Date(this);
         local.setMinutes(this.getMinutes() - this.getTimezoneOffset());
         return local.toJSON().slice(0, 10);
@@ -179,7 +179,7 @@ function validateTime(note_time, note_date) {
 }
 
 function validateDate(note_date) {
-    Date.prototype.toDateInputValue = (function() {
+    Date.prototype.toDateInputValue = (function () {
         let local = new Date(this);
         local.setMinutes(this.getMinutes() - this.getTimezoneOffset());
         return local.toJSON().slice(0, 10);
@@ -232,7 +232,7 @@ function sortBy(value, arr) {
 }
 
 function sortToday(arr) {
-    Date.prototype.toDateInputValue = (function() {
+    Date.prototype.toDateInputValue = (function () {
         let local = new Date(this);
 
         local.setMinutes(this.getMinutes() - this.getTimezoneOffset());
@@ -293,7 +293,7 @@ function sortToDo(arr) {
     }
 }
 //DATE NOW GENERATOR
-Date.prototype.toDateInputValue = (function() {
+Date.prototype.toDateInputValue = (function () {
     let local = new Date(this);
 
     local.setMinutes(this.getMinutes() - this.getTimezoneOffset());
@@ -302,7 +302,7 @@ Date.prototype.toDateInputValue = (function() {
 });
 document.getElementById("dateToDo").value = new Date().toDateInputValue();
 //TIME NOW  GENERATOR
-Date.prototype.toDateInputValue = (function() {
+Date.prototype.toDateInputValue = (function () {
     let local = new Date(this);
     local.setMinutes(this.getMinutes() - this.getTimezoneOffset());
     return local.toJSON().slice(11, 16);
