@@ -63,6 +63,7 @@ const myCar = { }
 - Create a Button that - `show car`
 - when clicking the button the car will be presented in the HTML
 - create another button `remove car` - clicking the button will remove the car from the HTML
+- sell car - create a form that will support car sale.
 
 
 

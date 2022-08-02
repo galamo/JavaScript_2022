@@ -1,0 +1,16 @@
+.centerDiv {
+    width: 800px;
+    margin: auto;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.headerRed {
+    color: blueviolet
+}
+
+.inlineHeader h2 {
+    display: inline-block;
+    margin: 5px;
+
+}
