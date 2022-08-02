@@ -78,11 +78,6 @@ function sellCar() {
     const buyerId = document.getElementById("buyerId")
     const buyerName = document.getElementById("buyerName")
     myCar.sell({ id: Number(buyerId.value), name: buyerName.value, yearPurchase: new Date().getFullYear() })
-    // const ownerLi = document.createElement("li")
-    // ownerLi.className = "list-group-item"
-    // ownerLi.innerText = `id: ${buyerId.value} name: ${buyerName.value}  year:${new Date().getFullYear()}`
-    // const ownersList = document.getElementById("ownersList")
-    // ownersList.append(ownerLi)
     showCar()
 }
 

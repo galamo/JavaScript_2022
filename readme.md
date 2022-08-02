@@ -66,6 +66,15 @@ const myCar = { }
 - sell car - create a form that will support car sale.
 
 
+# Automation Exercise
+Create Automation script which test our car site
+1. Click on the `showCar`
+2. Assert the car id
+3. Insert the input: `id` & `name`
+4. Click on `sellCar`
+5. Assert the new Owner row
+
+
 
 # Subjects:
 1. Javascript Automation scripts
