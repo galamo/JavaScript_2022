@@ -14,17 +14,18 @@
 <body>
     <div class="centerDiv">
         <h1 class="headerRed"> My Car page</h1>
-        <button onclick="showCar()" class="btn btn-warning"> Show Car </button>
+        <button id="showCarButton" onclick="showCar()" class="btn btn-warning"> Show Car </button>
         <div id="content" class="inlineHeader">
 
         </div>
         <div id="sellContent">
-            id: <input id="buyerId" type="number" />
+            id: <input id="buyerId" type="text" />
             name :<input id="buyerName" type="text" />
-            <button onclick="sellCar()" class="btn btn-primary"> Sell car </button>
+            <button id="sellButton" onclick="sellCar()" class="btn btn-primary"> Sell car </button>
         </div>
     </div>
     <script src="./car.js"></script>
+    <script src="./automationCar.js"></script>
 </body>
 
 </html>

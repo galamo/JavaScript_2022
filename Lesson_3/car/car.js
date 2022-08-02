@@ -14,8 +14,7 @@ const myCar = {
     },
     sell: function (newOwner = {}) {
 
-        if (typeof newOwner.id === 'number' &&
-            typeof newOwner.name === 'string' &&
+        if (typeof newOwner.name === 'string' &&
             typeof newOwner.yearPurchase === 'number') {
             this.owners.push(newOwner)
         } else {
@@ -77,7 +76,7 @@ function showCar() {
 function sellCar() {
     const buyerId = document.getElementById("buyerId")
     const buyerName = document.getElementById("buyerName")
-    myCar.sell({ id: Number(buyerId.value), name: buyerName.value, yearPurchase: new Date().getFullYear() })
+    myCar.sell({ id: buyerId.value, name: buyerName.value, yearPurchase: new Date().getFullYear() })
     showCar()
 }
 
