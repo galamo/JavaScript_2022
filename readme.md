@@ -101,3 +101,23 @@ Create Automation script which test our car site
 1. validateInputs - validate all inputs - Done
 2. Add sticky note ( remember to clean the board) + Delete 
 3. Filter sticky notes - all, completed, today
+
+
+
+# Automation scripts
+1. Async operations
+2. Install node.js - https://nodejs.org/en/download/
+- Click on the LTS 
+- Download and install
+- Draw.io - explanation on js run
+3. `Hello world` node.js example
+
+4. create automation scripts
+5. test budget application
+
+
+
+
+# using cypress - if time permits
+`npm install cypress`
+`npx cypress open`
