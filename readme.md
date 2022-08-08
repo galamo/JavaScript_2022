@@ -113,6 +113,9 @@ Create Automation script which test our car site
 3. `Hello world` node.js example
 
 4. create automation scripts
+- run `npm i selenium-webdriver`
+- run `npm i chai`
+- run `npm i mocha`
 5. test budget application
 
 
