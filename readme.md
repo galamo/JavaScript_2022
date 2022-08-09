@@ -141,4 +141,21 @@ run
 
 ## Selenium test - budget app
 
-`  `
+```javascript
+describe("Budget Application - Hatzmadot", function () {
+    it("Open Budget Site", async function () {
+        // Creating the Browser object
+        let driver = await new Builder().forBrowser(Browser.CHROME).build();
+        try {
+            // Requesting the Web application URL ( GET )
+            await driver.get(budgetUrl);
+        } catch (ex) {
+            setTimeout(async () => {
+                await driver.quit();
+            }, 5000);
+        }
+    })
+})
+
+
+```

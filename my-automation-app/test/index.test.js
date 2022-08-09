@@ -27,5 +27,4 @@ describe("Budget Application - Hatzmadot", function () {
             }, 5000);
         }
     })
-
 })
