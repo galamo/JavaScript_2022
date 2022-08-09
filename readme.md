@@ -136,3 +136,9 @@ run
 # using cypress - if time permits
 `npm install cypress`
 `npx cypress open`
+
+
+
+## Selenium test - budget app
+
+`  `
