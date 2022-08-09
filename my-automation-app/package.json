@@ -4,7 +4,8 @@
   "description": "",
   "main": "nodejs.js",
   "scripts": {
-    "test": "mocha --timeout 1000000"
+    "test": "mocha --timeout 1000000",
+    "onlyOneTest": "mocha --grep 'Check Sum function'"
   },
   "keywords": [],
   "author": "",
