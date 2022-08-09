@@ -224,6 +224,7 @@ describe("Budget Application - Hatzmadot", function () {
             mahaduraNew.click()
 
             const breadCrumbs2 = await driver.wait(until.elementLocated(By.className('tw-text-nav-title-page')));
+            // //myparent/mychild[text() = 'foo']
             const text2 = await breadCrumbs2.getText()
             expect(text2).to.be.equal('בית > מהדורה')
         } finally {
