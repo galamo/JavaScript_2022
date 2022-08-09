@@ -5,7 +5,8 @@
   "main": "nodejs.js",
   "scripts": {
     "test": "mocha --timeout 1000000",
-    "onlyOneTest": "mocha --grep 'Check Sum function'"
+    "onlyOneTest": "mocha --grep 'Check Sum function'",
+    "ng": "mocha  --timeout 1000000  --grep 'New Girsa Hatzmada'"
   },
   "keywords": [],
   "author": "",
