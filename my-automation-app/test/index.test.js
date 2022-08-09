@@ -16,7 +16,16 @@ describe("Budget Application - Prerequisites", function () {
 
 describe("Budget Application - Hatzmadot", function () {
     it("Open Budget Site", async function () {
+        // Creating the Browser object
         let driver = await new Builder().forBrowser(Browser.CHROME).build();
-        await driver.get(budgetUrl);
+        try {
+            // Requesting the Web application URL ( GET )
+            await driver.get(budgetUrl);
+        } catch (ex) {
+            setTimeout(async () => {
+                await driver.quit();
+            }, 5000);
+        }
     })
+
 })
