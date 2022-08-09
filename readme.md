@@ -112,7 +112,15 @@ Create Automation script which test our car site
 - Draw.io - explanation on js run
 3. `Hello world` node.js example
 
-4. create automation scripts
+
+
+run 
+`npm install -g npm@6`
+
+run 
+`npm init -y`
+
+
 - run `npm i selenium-webdriver`
 - run `npm i chai`
 - run `npm i mocha`
