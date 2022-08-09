@@ -21,13 +21,13 @@ function validateAdd() {
 
 
 
-setTimeout(async () => {
-    validateAllInputs()
-    await new Promise(r => setTimeout(r, 2000)); // wait 2 sec
-    closeSweetAlert()
-    await new Promise(r => setTimeout(r, 2000));
-    validateAdd()
-}, 5000)
+// setTimeout(async () => {
+//     validateAllInputs()
+//     await new Promise(r => setTimeout(r, 2000)); // wait 2 sec
+//     closeSweetAlert()
+//     await new Promise(r => setTimeout(r, 2000));
+//     validateAdd()
+// }, 5000)
 
 function closeSweetAlert() {
     document.querySelector(".swal2-confirm").click()

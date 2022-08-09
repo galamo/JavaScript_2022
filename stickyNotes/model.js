@@ -32,7 +32,7 @@ function getNoteUi(stickyNote) {
     note_mainDiv.classList.add(mainDivComplete, "mr-4")
     note_mainDiv.id = note_id
     note_mainDiv.addEventListener("mouseover", visibleBtn)
-    note_mainDiv.addEventListener("mouseout", invisibleBtn)
+    // note_mainDiv.addEventListener("mouseout", invisibleBtn)
 
     const note_secDiv = document.createElement("div");
     note_secDiv.id = "note";
